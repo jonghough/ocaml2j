@@ -176,29 +176,29 @@ let freeit pointer =
 	jfree pointer
 
 	
-(* example function *)	
-(*let () = 
-	let pt = setup () in
-	doit pt "isPrime =: 1 p: >: i. 100 ";
-	let result = getit pt "isPrime" in
 
-	match result with
-	| JError e ->
-		printf "error %s\n" e
-	| JResult (_,_,_,jr) ->
-		match jr with
-		| `JBoolArray arr ->
-			Array.iter ~f: print_bool_element arr
-		| `JIntArray arr ->
-			Array.iter ~f: print_int_element arr
-		| `JFloatArray arr ->
-			Array.iter ~f: print_float_element arr
-		| `JString s ->
-			Printf.printf "%s\n" s
-		| _ -> 
-			printf "Unknown datatype.";
-	let ret2 = jfree pt in
-	print_int ret2;*)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	
 
 	
