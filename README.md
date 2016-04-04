@@ -19,6 +19,12 @@ type jFloat = JFloat of float
 ```
 Other types are not supported (yet).
 
-## 32-bit
+## Building and running
+
+to build -> `./build.sh`
+
+to run -> `./callc.byte`
+
+## Tested platforms
 
 This has been tested on 32-bit Linux only. For other OSes, obviously the correct library file is needed. Definitely not tested on 64-bit yet.
